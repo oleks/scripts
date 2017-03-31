@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Extract a ZIP archive to an MTP volume (using jmtpfs)
+
 # Copyright 2017 oleks <oleks@oleks.info>
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may not
