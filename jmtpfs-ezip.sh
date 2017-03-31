@@ -15,7 +15,7 @@ trap "rm -rf \"${tmpdir}\"" INT TERM EXIT
 
 unzip "${zipfile}" -d "${tmpdir}"
 
-targetpath="${mountpoint}${mountpath}/"
+targetpath="${mountpoint}/${mountpath}/"
 
 mkdir -p "${targetpath}"
 rsync -av "${tmpdir}/" "${targetpath}/"
