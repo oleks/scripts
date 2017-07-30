@@ -19,6 +19,6 @@
 
 set -euo pipefail
 
-path=$1
+filepath=$1
 
-ffmpeg -i "${path}" -vn -c:a libmp3lame "${path%.*}.mp3"
+ffmpeg -i "${filepath}" -vn -c:a libmp3lame "${filepath%.*}.mp3"
