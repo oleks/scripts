@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Convert any video supported by ffmpeg to mp3. The resulting mp3 will be saved
-# in the same location as the original video, and will have the same filename,
-# except the filename extension. This script assume that the given filepath has
-# an adequate filename extension.
+# Convert any video supported by your ffmpeg to mp3. The resulting mp3 will be
+# saved in the same location as the original video, and will have the same
+# filename, except the filename extension. This script assumes that the given
+# filepath has an adequate filename extension.
 
 # Copyright 2017 oleks <oleks@oleks.info>
 #
